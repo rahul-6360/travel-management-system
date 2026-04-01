@@ -1,0 +1,109 @@
+.experience {
+  padding: 60px 0;
+}
+
+.experience__badge {
+  display: inline-block;
+  background: #ff7e01;
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.experience__content h2 {
+  margin-top: 12px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.experience__content p {
+  margin-top: 12px;
+  color: #6b6b6b;
+  line-height: 1.6;
+  max-width: 480px;
+}
+
+.experience__counters {
+  margin-top: 22px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.counter__box {
+  width: 140px;
+  padding: 14px 12px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.counter__box span {
+  display: block;
+  font-size: 22px;
+  font-weight: 800;
+  color: #ff7e01;
+}
+
+.counter__box h6 {
+  margin-top: 6px;
+  font-size: 13px;
+  color: #444;
+  font-weight: 600;
+}
+
+/* RIGHT SIDE */
+.experience__imgWrap {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 360px;
+}
+
+.experience__circle {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  background: #ff7e01;
+  opacity: 0.15;
+}
+
+.experience__img {
+  width: 320px;
+  height: 360px;
+  object-fit: cover;
+  border-radius: 18px;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+/* floating small card */
+.experience__floatCard {
+  position: absolute;
+  bottom: 18px;
+  right: 22px;
+  z-index: 3;
+  background: #fff;
+  padding: 10px 12px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+.experience__floatCard h6 {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.experience__floatCard p {
+  margin: 4px 0 0 0;
+  font-size: 12px;
+  color: #666;
+}
